@@ -28,16 +28,20 @@ function add(){
   console.log(typeof userInput);
   currentCount += userInput;
   counter.textContent = currentCount;
-  if (currentCount >= 0){
-    counter.style.color = "black";
-  }
+  makeRed();
 }
 
 function subtract(){
   let userInput = parseInt(input.value);
   currentCount -= userInput;
   counter.textContent = currentCount;
+  makeRed();
+}
+
+function makeRed(){
   if (currentCount < 0){
     counter.style.color = "red";
-  }
+  } else {
+    counter.style.color = "black";
+  };
 }
