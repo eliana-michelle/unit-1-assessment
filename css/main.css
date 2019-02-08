@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(169, 169, 169);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+input {
+  height: 60px;
+  width: 120px;
+  border: 4px solid rgb(169, 169, 169);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#counter {
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+}
+
+button:hover{
+  background-color: white;
+  color: rgb(169, 169, 169);
+
+}
